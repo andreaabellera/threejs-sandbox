@@ -1,1 +1,3 @@
-# ThreeJS_Sandbox
+# threejs-sandbox
+
+All the experiments
