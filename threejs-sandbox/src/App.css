@@ -1,6 +1,24 @@
 .app {
   height: 100%;
   width: 100%;
-  display: flex;
-  flex-direction: column;
+  display: block;
+}
+
+Header{
+  top: 0;
+  position: fixed;
+  opacity: 70%;
+  transform: translateY(-70%);
+}
+
+Header:hover{
+  transition: 0.3s ease-out;
+  transform: translateY(-1%);
+  opacity: 100%;
+  cursor: pointer;
+}
+
+Footer{
+  bottom: 0;
+  position: fixed;
 }

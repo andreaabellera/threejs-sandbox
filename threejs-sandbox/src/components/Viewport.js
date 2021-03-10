@@ -22,12 +22,12 @@ class Viewport extends React.Component {
         var camera = new THREE.PerspectiveCamera( 75, window.innerWidth/window.innerHeight, 0.1, 1000 );
         camera.position.z = 2;
         var renderer = new THREE.WebGLRenderer({ antialias: true });
-        renderer.setClearColor("#e5e5e5");
+        renderer.setClearColor("#9FE4EB");
         renderer.setSize( window.innerWidth, window.innerHeight );
         this.mount.appendChild( renderer.domElement );
       
         var geometry = new THREE.BoxGeometry( 1, 1, 1 );
-        var material = new THREE.MeshStandardMaterial( { color: 0xFFCC00 } );
+        var material = new THREE.MeshStandardMaterial( { color: 0xD98643 } );
         var cube = new THREE.Mesh( geometry, material );
         scene.add( cube );
         const light = new THREE.HemisphereLight( 0xffffbb, 0x080820, 1 );
