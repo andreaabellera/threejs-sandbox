@@ -5,8 +5,8 @@ function Footer()
 {
     return (
         <footer>
-            <span className="left"> Tiny Portfolio by Andrea Abellera </span> 
-            <span className="right"> Made with love © 2021 </span>
+            <span className="left"> .devClub Hackathon entry by Andrea Abellera </span> 
+            <span className="right"> Made with love and a bit of haste © 2021 </span>
         </footer>
     );
 }
